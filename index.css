@@ -1,0 +1,293 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.container h1 {
+    color: #4A99D3;
+    margin-left: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10%;
+    padding-left: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+#grad1 {
+    height: 200px;
+      background-image: linear-gradient(to bottom ,#c6def0, white);
+      padding-top: 20px;
+  }
+       .hello {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 20px;
+        text-align: center;
+        flex-wrap: wrap; 
+    }
+.text-content {
+        max-width: 500px;
+        margin: 20px;
+ }
+.heading {
+        color: #333;
+        margin: 10px 0;
+        text-align: left;
+}
+ .hello p {
+        margin: 10px 0;
+    }
+ .image {
+         height: auto;
+         margin: 100px;
+    }
+    
+  .second {
+        background-color: none;
+        width: 25%;
+        padding: 1rem;
+        margin-left: 60%;
+      
+                           }
+    .main {
+        box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+        background-color: white;
+
+         }
+    .gridtext p  {
+        padding:10%;
+        max-width: 200%;
+        font-size:small;
+    }
+    .gridtext h1{
+        padding-top:10%;
+        padding-left: 5%;
+    }
+    .cardheading{
+     margin-left: 30%;
+    }
+  .third{
+    background-color: none;
+    width: 25%;
+    padding: 1rem;
+    margin-left: 30%;
+   
+      }    
+        .fourth{
+        background-color: none;
+        width: 25%;
+        padding: 1rem;
+        margin-left: 60%;
+      }
+   .gridtext button{
+    margin-left:10%;
+    margin-bottom:5%;
+}
+    .work{
+    background-color: #bedef5;
+    padding-bottom: 5%;
+    margin-top:5%;
+       }
+
+
+
+    .headtext
+    {
+    text-align: center;
+    color:#4A99D3;
+    padding-top:5%;
+    text-decoration: none;
+     }
+
+     
+    .components{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        padding-top:5%;
+    }
+
+   .component{
+    text-align: center;
+       }
+            
+      .client {
+        text-align: center;
+        margin-top: 10%;
+        }
+
+    .imagegirl {
+        width: 70%;
+        margin-left: 10%;
+          }
+
+    .test {
+        background-image: url('./image/Rectangle 22.png');
+        background-repeat: no-repeat;
+        background-position: left; 
+        margin-top: 2%;
+        
+        }
+
+
+    .containerz {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 80%;
+        margin: auto;
+
+    }
+
+    .test, .side {
+        flex: 1;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        text-align: left;
+        padding: 90px;
+    }
+
+     .side p {
+        margin: 0;
+    }
+
+    .pmf {
+        width: 110px;
+        height: auto;
+        margin-top: 60px;
+        margin-left: 70%;
+    }
+
+    
+    .group {
+        width: 40px;
+        height: auto;
+        margin-left: 0%;
+    }
+
+
+    .imagemock{
+        width: 40%;
+        margin-left: 10%;
+
+    }
+    .maindiv{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        padding: 10%;
+           }  
+
+    .textlast{
+            text-align: center;
+              max-width: 300px;
+             margin: 20px;
+           }  
+
+
+           button {
+            display: inline-flex;
+            align-items: center;
+            background-color:black;
+            color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            margin: 5px;
+        }
+
+        button i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        button p {
+            margin: 0;
+            line-height: 1.5;
+            font-size: 12px;
+        }
+        footer{
+
+            background-color: #4A99D3;
+            color:white;
+            padding:50px;
+        }
+
+        .logo{
+          display: flex;
+          justify-content: space-around;
+        }
+
+         .email{
+            margin-left: 3%;
+            max-width: 300px;
+        }
+        .links{
+           margin-right:3%;
+           margin-left:15%;
+    
+        }
+         h3{
+            text-decoration: underline;
+            padding-bottom:10px;
+        }
+      .links p{
+        padding-bottom: 10px;
+      }
+      .others p{
+        padding-bottom: 10px;
+      }
+      .products p{
+        padding-bottom: 10px;
+      }
+      .lastline{
+        display: flex;
+        justify-content: space-between;
+        padding-top: 20px;
+       
+      }
+      .icons {
+
+        margin-right: 10%;
+        font-size: 20px;
+     
+    }
+        .icons i {
+        margin-right: 20px; /* Adds space between icons */
+    }
+        input{
+          padding: 3%;
+                }
+        .btn{
+        padding: 3%;
+        }
+       .text{
+        margin-left:5%;
+       }
+
+
+
+
+
+
+

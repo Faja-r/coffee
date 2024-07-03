@@ -1,0 +1,182 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+}
+body{
+    padding: 0%;
+}
+
+.container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+ 
+}
+.container h1 {
+    color: #4A99D3;
+    margin-left: 20px;
+}
+ul {
+    list-style: none;
+    display: flex;
+    margin-right: 10%;
+    padding-left: 0;
+}
+ul li {
+    display: inline-block;
+    margin-right: 20px;
+}
+ul li a {
+    color: black;
+    text-decoration: none;
+}
+#grad1 {
+    height: 200px;
+      background-image: linear-gradient(to bottom ,#c6def0, white);
+      padding-top: 20px;
+  } footer{
+    background-color: #4A99D3;
+    color:white;
+    padding:50px;
+}
+.logo{
+  display: flex;
+  justify-content: space-around;
+}
+ .email{
+   
+    margin-left: 3%;
+    max-width: 300px;
+}
+.links{
+   margin-right:3%;
+   margin-left:15%;
+
+}
+ h3{
+    text-decoration: underline;
+    padding-bottom:10px;
+}
+.links p{
+padding-bottom: 10px;
+}
+.others p{
+padding-bottom: 10px;
+}
+.products p{
+padding-bottom: 10px;
+}
+.lastline{
+display: flex;
+justify-content: space-between;
+padding-top: 20px;
+
+}
+.icons {
+margin-right: 10%;
+font-size: 20px;
+}
+.icons i {
+margin-right: 20px; /* Adds space between icons */
+}
+
+ .email input{
+  padding: 3%;
+        }
+
+.btn{
+padding: 3%;
+}
+
+.text{
+
+margin-left:5%;
+}button {
+            display: inline-flex;
+            align-items: center;
+            background-color:black;
+            color: white;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            padding: 10px;
+            cursor: pointer;
+            font-family: Arial, sans-serif;
+            margin: 5px;
+        }
+        button i {
+            margin-right: 10px;
+            font-size: 24px;
+        }
+        button p {
+            margin: 0;
+            line-height: 1.5;
+            font-size: 12px;
+        }
+        .box {
+          border: 1px solid;
+          box-shadow: 5px 10px 8px 10px gray;
+          padding: 20px;
+          max-width: 600px;
+           margin-left: 25%;
+           margin-bottom: 6%;
+
+                }
+               .form button{
+                width: 70%;
+               
+               }
+        .data h1 {
+          text-align: center;
+          color: #4A99D3;
+      }
+    
+        .form {
+         width: 50%;
+         
+      }
+      .form li {
+          list-style: none;
+          margin-bottom: 15px;
+            }
+        .form h4 {
+        margin-bottom: 5%;
+      }
+      .form fieldset{
+       width: 60%;
+       margin-left:15%;
+       margin-bottom:15px;
+                     }
+         .form input{
+           width:70%;
+           padding:3%;
+             }
+    
+               .main {
+              display: flex;
+              justify-content: space-between;
+              padding-top:7%;
+         
+          }  .contact-info {
+            width: 45%;
+            padding-top:6%;
+            display: flex;
+            flex-direction: column;
+              gap: 10px;
+        }
+        .contact-info i {
+            margin-right: 10px;
+        }
+        .contact-info div {
+            display: flex;
+            align-items: center;
+        }
+        
+        .icons {
+            display: flex;
+            gap: 10px;
+            margin-top: 15px;
+        }
+        img{
+          width: 70%;
+
+        }
